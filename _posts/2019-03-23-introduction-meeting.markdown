@@ -1,7 +1,7 @@
 ---
 layout: post
 speaker: Thomas K. O'Hara
-title: Introduction to new members
+title: Introduction to Molden mechanics based on rigid members
 date: "2011-04-28 13:30:00 -0700"
 tags: [meeting, chemistry, postdoc]
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 speaker: Prof. Albert Einstein
-title: Markdown Test
-date: "2018-04-28 13:30:00 -0700"
+title: Gravitation of spherical bodies on random cosmic fields
+date: "2018-11-03 13:30:00 -0700"
 tags: [physics, professor, invited]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Workshop of nice scientific stuff
+title: Workshop of nice scientific stuff that saves the world
 layout: post
 date: "2015-04-28 13:30:00 -0700"
 ---

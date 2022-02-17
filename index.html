@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Group meetings
+title: Scientific talks
 ---
 <ul class="posts">
     {% for post in paginator.posts %}
     <li class="post">
-        <small>{{ post.date | date_to_string }}</small>
+        <small>{{ post.date | date: "%-d %B, %Y (%A)" }}</small>
         <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
         <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+        <br><b>{{ post.speaker }}</b>
+        <p class="nice-text">{{ post.content | strip_html | truncatewords: 80 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
     </li>
     {% endfor %}
     {% include pagination.html %}

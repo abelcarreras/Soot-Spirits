@@ -1,7 +1,7 @@
 ---
 layout: post
 speaker: Prof. Christian Minner
-title: Group Meeting
+title: Introduction to nuclear mechanics for average students
 date: "2018-04-28 13:30:00 -0700"
 tags: [bio, meeting, postdoc]
 ---
