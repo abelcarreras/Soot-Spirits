@@ -1,8 +1,8 @@
 ---
 layout: post
 speaker: Dr. Richard B. Harrington
-title: Invited Talk
-date: "2018-04-28 13:30:00 -0700"
+title: Evolution of Congo's gorillas with severe backaches 
+date: "2018-02-16 13:30:00 -0700"
 tags: [physics, professor, invited]
 ---
 

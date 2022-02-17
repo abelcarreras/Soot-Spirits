@@ -1,7 +1,7 @@
 ---
 layout: post
 speaker: Dr. Karol Snaider
-title: Group Meeting
+title: Bioenergy from cow extracted gas
 date: "2018-04-28 13:30:00 -0700"
 tags: [theory, meeting, student]
 ---
