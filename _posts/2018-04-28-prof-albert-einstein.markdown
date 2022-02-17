@@ -3,30 +3,17 @@ layout: post
 speaker: Prof. Albert Einstein
 title: Gravitation of spherical bodies on random cosmic fields
 date: "2018-11-03 13:30:00 -0700"
-tags: [physics, professor, invited]
+tags: [physics, invited]
 ---
 
-You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+ut labore et dolore magna aliqua.[^cite1] Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+non proident, sunt in culpa qui officia deserunt[^cite2] mollit anim id est laborum.
 <!--more-->
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![Plot](https://upload.wikimedia.org/wikipedia/commons/9/9f/Integral_example.svg)
 
 Here's a code chunk:
 
@@ -37,20 +24,10 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-And here is the same code with syntax highlighting:
+dolor sit amet, consectetur adipiscing elit,[^cite3] sed do eiusmod tempor incididunt 
+ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+[^cite1]: M. Thomas, J. Chem. Orth. 12, 45, 123-234 (1957)
+[^cite2]: K. Emminson, J. Phys. Art. 12, 45, 123-234 (2010)
+[^cite3]: J. Future, J. Cog. Thor. 12, 45, 123-234 (2210)
