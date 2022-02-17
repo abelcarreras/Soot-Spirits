@@ -1,6 +1,7 @@
 ---
-title: Lorem Ipsum
+title: Workshop of nice scientific stuff
 layout: post
+date: "2015-04-28 13:30:00 -0700"
 ---
 ## Lorem ipsum dolor sit amet
 
