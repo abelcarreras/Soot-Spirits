@@ -2,8 +2,8 @@
 layout: talk
 speaker: Dr. Karol Snaider
 image: /assets/images/facephoto2.png
-place: DIPC seminar room
-contact: generic@mail.com
+place: NASA hyperspace capsule
+contact: karol.s@mail.com
 title: Bioenergy from cow extracted gas
 date: "2018-04-28 13:30:00 -0700"
 tags: [bio]

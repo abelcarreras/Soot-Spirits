@@ -2,8 +2,8 @@
 layout: talk
 speaker: Dr. Richard B. Harrington
 image: /assets/images/facephoto3.png
-place: DIPC seminar room
-contact: generic@mail.com
+place: Main building
+contact: r.harrington@mail.com
 title: Evolution of Congo's gorillas with severe backaches 
 date: "2018-02-16 13:30:00 -0700"
 tags: [bio, chemistry]

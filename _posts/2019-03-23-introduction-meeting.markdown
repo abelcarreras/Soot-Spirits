@@ -2,8 +2,8 @@
 layout: talk
 speaker: Thomas K. O'Hara
 image: /assets/images/facephoto.png
-place: DIPC seminar room
-contact: generic@mail.com
+place: Auditorium
+contact: t.ohara@mail.com
 title: Introduction to Rize mechanics based on rigid members
 date: "2023-04-28 13:30:00 -0700"
 tags: [theory, chemistry]
