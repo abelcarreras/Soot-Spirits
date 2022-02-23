@@ -1,8 +1,8 @@
 ---
 layout: workshop
 title: Workshop of nice scientific stuff that saves the world
-place: DIPC seminar room
-contact: generic@mail.com
+place: Room 202
+contact: organization@institution.com
 date: "2015-04-28 13:30:00 -0700"
 ---
 ## Lorem ipsum dolor sit amet

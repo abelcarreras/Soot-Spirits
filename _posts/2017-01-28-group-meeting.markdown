@@ -2,8 +2,8 @@
 layout: talk
 speaker: Prof. Christina Minner
 image: /assets/images/facephoto2.png
-place: DIPC seminar room
-contact: generic@mail.com
+place: Conference hall
+contact: chrisminner@mail.com
 title: Introduction to nuclear mechanics for average students
 date: "2018-09-2 13:30:00 -0700"
 tags: [theory, chemistry]

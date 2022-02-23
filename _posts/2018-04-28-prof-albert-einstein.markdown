@@ -2,8 +2,8 @@
 layout: talk
 speaker: Prof. Albert Einstein
 image: /assets/images/facephoto.png
-place: DIPC seminar room
-contact: generic@mail.com
+place: Seminar room
+contact: albert@mail.com
 title: Gravitation of spherical bodies on random cosmic fields
 date: "2023-11-03 13:30:00 -0700"
 tags: [physics, invited]
