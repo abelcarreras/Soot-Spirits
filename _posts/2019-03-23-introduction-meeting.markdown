@@ -5,8 +5,9 @@ image: /assets/images/facephoto.png
 place: DIPC seminar room
 contact: generic@mail.com
 title: Introduction to Rize mechanics based on rigid members
-date: "2011-04-28 13:30:00 -0700"
+date: "2023-04-28 13:30:00 -0700"
 tags: [theory, chemistry]
+group: 3
 ---
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
