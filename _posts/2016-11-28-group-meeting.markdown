@@ -1,6 +1,7 @@
 ---
 layout: post
 speaker: Dr. Karol Snaider
+image: /assets/images/facephoto2.png
 title: Bioenergy from cow extracted gas
 date: "2018-04-28 13:30:00 -0700"
 tags: [bio]
