@@ -5,8 +5,9 @@ image: /assets/images/facephoto.png
 place: DIPC seminar room
 contact: generic@mail.com
 title: Gravitation of spherical bodies on random cosmic fields
-date: "2018-11-03 13:30:00 -0700"
+date: "2023-11-03 13:30:00 -0700"
 tags: [physics, invited]
+group: 2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
