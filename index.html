@@ -1,25 +1,16 @@
 ---
 layout: page
-title: Scientific talks
+title : Upcoming events
+header : Upcoming events
 ---
-<ul class="posts">
-    {% for post in paginator.posts %}
-    <li class="post">
-        <small>{{ post.date | date: "%-d %B, %Y (%A)" }} at {{ post.place }} </small>
-        <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
-        <br>
-        <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <br><img src="{{ site.baseurl }}{{ post.image }}" alt="" style="width:100px;"/>
-        <br><b>{{ post.speaker }}</b>
-        <p class="nice-text">{{ post.content | strip_html | truncatewords: 80 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
-    </li>
-    {% endfor %}
-    {% include pagination.html %}
-</ul>
+{% include JB/setup %}
+{% assign posts_upcoming = site.posts %}
+{% include JB/posts_upcoming %}
 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'noname';
+    var current_time = Math.round(Date.now());
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
@@ -29,3 +20,6 @@ title: Scientific talks
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
+
+
+

@@ -1,0 +1,32 @@
+---
+layout: page
+title: Scientific talks
+---
+<ul class="posts">
+    {% for post in paginator.posts %}
+    <li class="post">
+        <small>{{ post.date | date: "%-d %B, %Y (%A)" }} at {{ post.place }} </small>
+        <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <br><img src="{{ site.baseurl }}{{ post.image }}" alt="" style="width:100px;"/>
+        <br><b>{{ post.speaker }}</b>
+        <p class="nice-text">{{ post.content | strip_html | truncatewords: 80 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+    </li>
+    {% endfor %}
+    {% include pagination.html %}
+</ul>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'noname';
+    var current_time = Math.round(Date.now());
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
