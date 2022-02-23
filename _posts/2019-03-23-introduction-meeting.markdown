@@ -1,6 +1,7 @@
 ---
 layout: post
 speaker: Thomas K. O'Hara
+image: /assets/images/facephoto.png
 title: Introduction to Molden mechanics based on rigid members
 date: "2011-04-28 13:30:00 -0700"
 tags: [theory, chemistry]

@@ -1,6 +1,7 @@
 ---
 layout: post
 speaker: Prof. Albert Einstein
+image: /assets/images/facephoto.png
 title: Gravitation of spherical bodies on random cosmic fields
 date: "2018-11-03 13:30:00 -0700"
 tags: [physics, invited]

@@ -1,6 +1,7 @@
 ---
 layout: post
-speaker: Prof. Christian Minner
+speaker: Prof. Christina Minner
+image: /assets/images/facephoto2.png
 title: Introduction to nuclear mechanics for average students
 date: "2018-09-2 13:30:00 -0700"
 tags: [theory, chemistry]

@@ -9,6 +9,7 @@ title: Scientific talks
         <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
         <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <br><img src="{{ post.image }}" style="width:100px;"/>
         <br><b>{{ post.speaker }}</b>
         <p class="nice-text">{{ post.content | strip_html | truncatewords: 80 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
     </li>

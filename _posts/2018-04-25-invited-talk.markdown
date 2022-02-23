@@ -1,6 +1,7 @@
 ---
 layout: post
 speaker: Dr. Richard B. Harrington
+image: /assets/images/facephoto3.png
 title: Evolution of Congo's gorillas with severe backaches 
 date: "2018-02-16 13:30:00 -0700"
 tags: [bio, chemistry]
