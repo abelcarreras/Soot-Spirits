@@ -22,17 +22,14 @@ Usage:
 {% else %}
   {% for post in posts_collate  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-  
+
     {% if forloop.first %}
       <h2 class="nice-title">{{this_year}}</h2>
-      <h3 class="nice-text">{{this_month}}</h3>
       <ul>
     {% endif %}
   
-    <li><span>{{ post.speaker }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span> {{ post.date | date: "%-d %b" }} &nbsp;<b>{{ post.speaker }} </b></span> <br>&raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   
     {% if forloop.last %}
       </ul>
@@ -41,14 +38,7 @@ Usage:
         </ul>
         <hr/>
         <h2 class="nice-title">{{next_year}}</h2>
-        <h3 class="nice-text">{{next_month}}</h3>
         <ul>
-      {% else %}    
-        {% if this_month != next_month %}
-          </ul>
-          <h3 class="nice-text">{{next_month}}</h3>
-          <ul>
-        {% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
