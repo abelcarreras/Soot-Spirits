@@ -32,7 +32,7 @@
 {% endif %}
 
 {% if site.github %}
-  {% assign is_production = true %}
+  {% assign is_production = false %}
   {% assign jb_prod_env = "github" %}
 {% endif %}
 
