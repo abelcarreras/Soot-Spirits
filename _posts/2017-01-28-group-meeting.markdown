@@ -7,6 +7,7 @@ contact: chrisminner@mail.com
 title: Introduction to nuclear mechanics for average students
 date: "2018-09-2 13:30:00 -0700"
 tags: [theory, chemistry]
+group: 3
 ---
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.

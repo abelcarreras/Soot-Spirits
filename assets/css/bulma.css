@@ -596,6 +596,47 @@ table th {
   user-select: none;
 }
 
+/* colors for groups */
+
+.group_1{
+  background-color: seashell;
+}
+
+.group_2{
+  background-color: floralwhite;
+}
+
+.group_3{
+  background-color: aliceblue;
+}
+
+.group_4{
+  background-color: honeydew;
+}
+
+.group_5{
+  background-color: mintcream;
+}
+
+.box_color {
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  display: block;
+  padding: 1.25rem;
+}
+
+.box_color:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+a.box_color:hover, a.box:focus {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #00d1b2;
+}
+
+a.box_color:active {
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #00d1b2;
+}
+
 .box {
   background-color: white;
   border-radius: 5px;

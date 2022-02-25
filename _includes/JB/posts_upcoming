@@ -32,7 +32,7 @@ Usage:
     {% assign currentDate = currentDate | plus: 0 %}
 
     {% if currentDate < postDate %}
-    <div class="box">
+    <div class="box_color group_{{post.group}}" >
         <lu class="posts">
         {{ post.date | date: "%-d %b, %Y (%A)" }} at {{ post.place }}
         <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
